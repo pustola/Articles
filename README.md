@@ -7,20 +7,28 @@
     
     ```python
     from scipy.stats import shapiro
-    shapiro(data)[1]
+    shapiro(features)[1]
     ```
     2. Using pandas .skew() (only numerical features)<br>
     
     ```python
-    data.skew()
+    features.skew()
     ```
     
   - Correcting skew:<br>
   
     ```python
-    data**2
-    1/data
-    np.log(data)
+    features**2
+    1/features
+    np.log(features)
     ```
+   
+    Box Cox transformation combines all three above:
     
-    
+    ```python
+    from scipy.stats import boxcox
+    for i in features:
+      df[i], lambda = boxcox(df[i], lmbda=none)
+     ```
+     
+     
