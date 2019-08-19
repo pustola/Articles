@@ -1,9 +1,10 @@
 # Articles
 ## Data engineering
 - [Transforming skewed data](https://medium.com/@ODSC/transforming-skewed-data-for-machine-learning-90e6cc364b0)<br>
-  - Checking for skew:<br>
-    1. Shapiro-Wilks test<br>
-    if p-value < 0.05 skew is significant<br>
+  >- Checking for skew:  
+  > 	1.Shapiro-Wilks test
+	
+ 	>		if p-value < 0.05 skew is significant  
     
     ```python
     from scipy.stats import shapiro
@@ -31,4 +32,4 @@
       df[i], lambda = boxcox(df[i], lmbda=none)
      ```
      
-     
+  TO READ: [Imbalanced classes](https://opendatascience.com/strategies-for-addressing-class-imbalance/)
