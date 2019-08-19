@@ -26,4 +26,4 @@
      
   TO READ: [Imbalanced classes](https://opendatascience.com/strategies-for-addressing-class-imbalance/)
 
-[test anchor](# tranaforming-skewed-data)
+[test anchor](#transforming-skewed-data)
