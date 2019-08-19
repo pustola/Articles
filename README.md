@@ -1,6 +1,5 @@
-# Articles
-## Data engineering
-- [Transforming skewed data](https://medium.com/@ODSC/transforming-skewed-data-for-machine-learning-90e6cc364b0)<br>
+# Data engineering
+##[Transforming skewed data](https://medium.com/@ODSC/transforming-skewed-data-for-machine-learning-90e6cc364b0)<br>
   **Checking for skew:**  
   *1.Shapiro-Wilks test*   
   if p-value < 0.05 skew is significant     
